@@ -20,7 +20,7 @@ def create_movie_table(dynamodb=None):
         AttributeDefinitions=[
             {
                 'AttributeName': 'year',
-                'AttributeType': 'S'
+                'AttributeType': 'N'
             },
             {
                 'AttributeName': 'title',
